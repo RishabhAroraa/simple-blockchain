@@ -9,16 +9,16 @@ class Transaction:
 		self.__receiver = receiver
 		self.__amount = amount
 
-	def getSender(self):
+	def get_sender(self):
 		return self.__sender
 
-	def getReceiver(self):
+	def get_receiver(self):
 		return self.__receiver
 
-	def getAmount(self):
+	def get_amount(self):
 		return self.__amount
 
-	def getBasis(self):
+	def get_basis(self):
 		basis = ""
 		basis += self.__sender
 		basis += self.__receiver
